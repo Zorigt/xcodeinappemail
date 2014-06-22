@@ -21,6 +21,7 @@
 		CE8E98601956992A003DBA1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E98421956992A003DBA1A /* UIKit.framework */; };
 		CE8E98681956992A003DBA1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8E98661956992A003DBA1A /* InfoPlist.strings */; };
 		CE8E986A1956992A003DBA1A /* inappemailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E98691956992A003DBA1A /* inappemailTests.m */; };
+		CE8E987419569983003DBA1A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E987319569983003DBA1A /* MessageUI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CE8E98651956992A003DBA1A /* inappemailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "inappemailTests-Info.plist"; sourceTree = "<group>"; };
 		CE8E98671956992A003DBA1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE8E98691956992A003DBA1A /* inappemailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = inappemailTests.m; sourceTree = "<group>"; };
+		CE8E987319569983003DBA1A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8E987419569983003DBA1A /* MessageUI.framework in Frameworks */,
 				CE8E98411956992A003DBA1A /* CoreGraphics.framework in Frameworks */,
 				CE8E98431956992A003DBA1A /* UIKit.framework in Frameworks */,
 				CE8E983F1956992A003DBA1A /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		CE8E983D1956992A003DBA1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE8E987319569983003DBA1A /* MessageUI.framework */,
 				CE8E983E1956992A003DBA1A /* Foundation.framework */,
 				CE8E98401956992A003DBA1A /* CoreGraphics.framework */,
 				CE8E98421956992A003DBA1A /* UIKit.framework */,
